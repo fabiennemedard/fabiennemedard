@@ -1,0 +1,561 @@
+/*
+Theme Name:     Jupiter Child Theme
+Theme URI: 		http://demos.artbees.net/jupiter5
+Description:    Child theme for the Jupiter theme
+Author:         Your name here
+Theme URI: 		http://themeforest.net/user/artbees
+Template:       jupiter
+Text Domain: mk_framework
+Domain Path: /languages/
+*/
+
+@font-face{
+    font-family: "Metropolis";
+    src: url("Fonts/Metropolis.eot") format('eot');
+    src: url("Fonts/Metropolis.woff") format('woff');
+}
+@font-face{
+    font-family: "LittleBird";
+    src: url("Fonts/LittleBird.woff") format('woff');
+}
+
+
+
+p {
+    color: #23282d;
+    font-size: 18px;
+}
+.sf-field-post-meta-type_technique>label>.sf-input-select>option:first-child{
+    display:none;
+}
+.master-holder strong {
+    color: #797878 !important;
+}
+
+header:not(.a-sticky) .nav-middle-logo a{
+    margin-top: 30px;
+}
+.fit-logo-img a {
+    height: auto !important;
+    margin-top: 12px;
+}
+
+#sub-footer .createur img {
+    max-width: 166px;
+}
+
+#mk-page-introduce {
+    position: relative;
+    padding: 80px 0;
+}
+.blog-single-title {
+    display: none !important;
+}
+.page-title {
+    font-size: 70px;
+    color: #ffffff !important;
+    font-weight: 100;
+}
+#mk-page-introduce.intro-left {
+    text-align: center;
+}
+.mk-quick-contact-link:hover {
+    background-color: #23282d !important;
+}
+.accent-bg-color {
+    background-color: #23282d !important;
+}
+.quick-contact-active .mk-quick-contact-link {
+    background-color: #23282d !important;
+}
+
+.add-header-height .header-style-1 .menu-hover-style-5 .main-navigation-ul > li img{
+    line-height: 105px !important;
+}
+
+.header-style-1 .menu-hover-style-5 .main-navigation-ul > li > a.menu-item-link {
+    line-height: 45px;
+}
+
+.main-navigation-ul > li.menu-item > a.menu-item-link {
+    color: #706f6f;
+    font-family: LittleBird;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.page-id-2  .master-holder h1 {
+    font-family: "LittleBird";
+    font-size: 96px;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.page-id-2 .page-section-content .mk-text-block h1{
+    background: #868585ad;
+}
+
+.sesoeuvres .box-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .sesoeuvres .mk-text-block  {
+    background: #0000007d;
+    padding: 15px;
+}
+
+
+.sesoeuvres .mk-text-block p a{
+    font-size: 20px;
+    color: #ffffff;
+
+}
+ .sesoeuvres .mk-text-block  p {
+    margin-bottom:0;
+}
+
+.actions-cibeo {
+    text-transform: initial !important;
+}
+/*
+.page-id-2 #text-block-20 {
+    background: #0000007d;
+    padding: 5px;
+}
+
+
+.page-id-2 #text-block-20 p a{
+    font-size: 20px;
+    color: #ffffff;
+
+}
+.page-id-2 #text-block-20 p {
+    margin-bottom:0;
+}*/
+.savoirplus {
+    color: white;
+    background: black;
+    padding: 10px;
+}
+
+
+.mk-portfolio-classic-item .from-left {
+    margin-left: -70px;
+    margin-top: -10px;
+}
+
+.real-h2 {
+    font-family: LittleBird;
+    font-size: 34px !important;
+    letter-spacing: 2px;
+    color: #706f6f;
+}
+.page-title {
+    font-family: "LittleBird";
+    color: #706f6f;
+}
+
+
+.fit-logo-img a {
+    height: auto !important;
+    /*margin-top: 30px ;*/
+}
+
+.master-holder h2 {
+color: #797878;
+}
+
+.searchandfilter ul {
+    text-align: center;
+}
+
+.search-filter-results .portfolio-excerpt{
+    display: none;
+}
+.master-holder select:not(.gfield_select), .woocommerce select {
+    font-size: 20px;
+    line-height: 20px;
+    color: #706f6f;
+    font-weight: 400;
+}
+.portfolio-meta-wrapper .the-title a {
+    font-family: LittleBird;
+    font-size: 20px;
+    color: #706f6f;
+}
+
+.portfolio-meta-wrapper .the-title {
+    text-align: center !important;
+    line-height: 20px!important;
+    margin-bottom: 0 !important;
+    min-height: 38px !important;
+    font-size: 18px!important;
+}
+.not-found-subtitle {
+    font-size: 120px;
+    font-family: "LittleBird";
+    font-weight: bold;
+    color: #777777;
+}
+
+.not-found-subt{
+    font-size: 22px;
+    color: #777777;
+}
+
+.mk-portfolio-classic-item .featured-image .image-hover-overlay {
+    z-index: unset;
+}
+
+.image-hover-overlay {
+    background-color: #ffffff !important;
+}
+.mk-portfolio-classic-item .featured-image img:hover {
+    transform: scale(1.6) !important;
+}
+/*.mk-fancy-title.shortcode-heading {
+    font-size: 64px;
+    font-family: Metropolis;
+    color: #706f6f;
+}*/
+
+.mk-fancy-title.pattern-style {
+    background: none;
+}
+.page-id-34 .mk-header{
+    background-image: url("../../uploads/2018/11/artiste-fabienne-medard-bandeau.jpg");
+}
+
+.page-id-13 .mk-header{
+    background-image: url("../../uploads/2018/11/oeuvres-fabienne-medard-bandeau.jpg");
+}
+.page-id-31 .mk-header{
+    background-image: url("../../uploads/2018/11/oeuvre-couleurs.jpg");
+    background-position: bottom center;
+}
+.page-id-31 .page-title {
+    color: #fff;
+}
+.postid-116 .mk-header{
+    background-image: url("../../uploads/2018/11/oeuvre-couleurs.jpg");
+    background-position: bottom center;
+}
+
+.postid-116 .page-title {
+    color: #fff;
+}
+.postid-111  .mk-header{
+    background-image: url("../../uploads/2018/11/oeuvre-couleurs.jpg");
+    background-position: bottom center;
+}
+
+.postid-111 .page-title {
+    color: #fff;
+}
+.postid-106 .mk-header{
+    background-image: url("../../uploads/2018/11/oeuvre-couleurs.jpg");
+    background-position: bottom center;
+}
+
+.postid-106 .page-title {
+    color: #fff;
+}
+
+.postid-100 .mk-header{
+    background-image: url("../../uploads/2018/11/oeuvre-couleurs.jpg");
+    background-position: bottom center;
+}
+
+.postid-100 .page-title {
+    color: #fff;
+}
+
+.postid-96 .mk-header{
+    background-image: url("../../uploads/2018/11/oeuvre-couleurs.jpg");
+    background-position: bottom center;
+}
+
+.postid-96 .page-title {
+    color: #fff;
+}
+
+.postid-92 .mk-header{
+    background-image: url("../../uploads/2018/11/oeuvre-couleurs.jpg");
+    background-position: bottom center;
+}
+
+.postid-92 .page-title {
+    color: #fff;
+}
+
+.postid-87 .mk-header{
+    background-image: url("../../uploads/2018/11/oeuvre-couleurs.jpg");
+    background-position: bottom center;
+}
+
+.postid-87 .page-title {
+    color: #fff;
+}
+
+.postid-81 .mk-header{
+    background-image: url("../../uploads/2018/11/oeuvre-couleurs.jpg");
+    background-position: bottom center;
+}
+
+.postid-81 .page-title {
+    color: #fff;
+}
+.postid-67 .mk-header{
+    background-image: url("../../uploads/2018/11/oeuvre-couleurs.jpg");
+    background-position: bottom center;
+}
+
+.postid-67 .page-title {
+    color: #fff;
+}
+
+.page-id-3 .master-holder h2 {
+    color: #797878;
+    font-size: 50px;
+    font-family: LittleBird;
+}
+.page-id-3 .master-holder h3{
+    color: #797878;
+    font-size: 36px;
+    font-family: LittleBird;
+}
+.page-id-3 .master-holder h4{
+    color: #797878;
+    font-size: 30px;
+    font-family: LittleBird;
+}
+.page-id-17 .master-holder h2 {
+    color: #797878;
+    font-size: 50px;
+    font-family: LittleBird;
+}
+.page-id-17 .master-holder h3{
+    color: #797878;
+    font-size: 36px;
+    font-family: LittleBird;
+}
+.page-id-17 .master-holder h4{
+    color: #797878;
+    font-size: 30px;
+    font-family: LittleBird;
+}
+.page-id-341 .master-holder h4 {
+    font-family: LittleBird;
+    font-size: 20px;
+    color: #706f6f;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center !important;
+}
+
+.page-id-341 .vc_gitem-post-data-source-post_excerpt{
+    min-height: 90px;
+}
+.page-id-341 .vc_btn3-container.vc_btn3-left{
+    text-align: center;
+}
+.page-id-341 .vc_btn3.vc_btn3-color-juicy-pink, .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat {
+    color: #fff;
+    background-color: #706f6f;
+}
+
+.page-id-341  .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat:hover, .page-id-341 .vc_btn3.vc_btn3-color-juicy-pink:focus, .page-id-341 .vc_btn3.vc_btn3-color-juicy-pink:hover {
+    color: #706f6f;
+    background-color: transparent;
+    border: 1px solid #706f6f;
+}
+
+.cibeo-btn {
+    color: #000 !important;
+    background-color: transparent !important;
+    border: 1px solid black;
+    padding: 7px 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+.wp-404-url-list{
+    list-style: none;
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+
+.wp-404-url-list li{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.wp-404-url-list li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+#sub-footer .createur {
+    font-size: 12px;
+    float: right;
+    line-height: 61px;
+    vertical-align: middle;
+}
+
+#mk-footer-navigation {
+    float: none;
+}
+
+input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], textarea {
+    width: 80%;
+}
+
+.wpcf7 a {
+    font-weight: 700;
+}
+
+#menu-menu-principal-2 {
+    text-align: right;
+}
+#mk-footer-unfold-spacer{
+margin-bottom: 50px;
+}
+
+#mk-footer {
+    padding: 50px 0 0 0 !important;
+}
+
+#sub-footer {
+    border-top: 0.25px solid rgba(121,120,120,0.57);
+}
+.wpcf7-form sup{
+    top: 0em;
+}
+
+.footer-wrapper img{
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width:768px) and (max-width: 1140px) {
+    .logo-is-responsive .mk-resposnive-logo {
+        display: none;
+    }
+    .header-logo img {
+      position: unset;
+        margin-top: 30px;
+    }
+
+    #menu-menu-principal-2{
+        text-align: center;
+    }
+
+    #media_image-2 {
+        text-align: center;
+    }
+    #contact_info-2 {
+        width: 180px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:768px){
+    .checkout_flex_reverse{
+        display:flex;
+        flex-wrap:wrap-reverse;
+    }
+    .checkout_flex_text{
+        width:100%;
+    }
+    .logo-is-responsive .mk-resposnive-logo {
+        display: block !important;
+        max-width: 400px;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 767px) {
+    .page-id-2 .master-holder h1 {
+        font-size: 46px;
+    }
+    .master-holder h2 {
+        font-size: 26px !important;
+    }
+
+    .real-h2 {
+        font-size: 26px !important;
+        color: #797878 !important;
+    }
+
+    .header-logo img {
+        position: unset;
+    }
+    .page-title {
+        font-size: 60px;
+    }
+    .master-holder select:not(.gfield_select) {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    #menu-menu-principal-2 {
+        display:none;
+    }
+    #contact_info-2 {
+        margin: 0 auto;
+        width: 220px;
+    }
+}
+
+@media (max-width: 412px) {
+    .fit-logo-img a {
+        height: auto !important;
+        margin-top: 0 !important;
+        margin-left:10px!important;
+    }
+
+    #sub-footer .createur {
+        font-size: 12px;
+        float: none;
+        line-height: 61px;
+        vertical-align: middle;
+        display: block;
+        text-align: center;
+    }
+
+    #page-section-2>.page-section-content>.mk-padding-wrapper{
+        padding:0;
+    }
+
+    .page-id-2 .master-holder h1 {
+        font-size:38px;
+    }
+
+    .logo-is-responsive .mk-resposnive-logo{
+        max-width:250px;
+    }
+
+    blockquote::before{
+        left:10px;
+    }
+    blockquote {
+        padding-left:50px!important;
+    }
+    blockquote p{
+        font-size:14px;
+    }
+    .checkout-boxes-oeuvres .vc_col-sm-4{
+        margin-top:20px;
+    }
+    .page-id-3 table td{
+        padding:3px;
+    }
+    .page-id-3 tbody{
+        font-size:14px;
+    }
+    .checkout_form_contact{
+        margin-bottom:20px;
+    }
+}
